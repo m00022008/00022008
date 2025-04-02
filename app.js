@@ -4,12 +4,12 @@ const path = require('path')
 const apiRoutes = require('./routes/api')
 const webRoutes = require('./routes/web')
 
+const app = express()
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
-const app = express()
 
 global.mock_db = path.join(__dirname, './data/mock_db.json')
 
