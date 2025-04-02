@@ -1,0 +1,18 @@
+[
+    {
+        "id": "s84q",
+        "book": {
+            "title": "book title here",
+            "author": "the name of the asdfasdf",
+            "genre": "genre of the book"
+        }
+    },
+    {
+        "id": "KtRA",
+        "book": {
+            "title": "Mohirdev",
+            "author": "author name here",
+            "genre": "genre"
+        }
+    }
+]

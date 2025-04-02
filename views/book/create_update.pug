@@ -1,0 +1,32 @@
+extends ../head.pug
+
+block content
+  .container.mt-4
+    - var formAction = book && book.id ? `/api/book/update/${book.id}` : '/api/book/create'
+    - var formTitle = book && book.id ? 'Update book' : 'Create book'
+    // Determine field values
+    - var stitle = book ? (book.book ? book.book.title : book.title) : ''
+    - var sauthor = book ? (book.book ? book.book.author : book.author) : ''
+    - var sgenre = book ? (book.book ? book.book.genre : book.genre) : ''
+    h1.mb-4= formTitle
+
+    // Display validation errors, if any
+    if errors && errors.length
+      .alert.alert-danger
+        ul
+          each err in errors
+            li #{err.msg}
+
+    form(method="post", action=formAction)
+      if book && book.id
+        input(type="hidden", title="id", value=book.id)
+      .form-group
+        label(for="title") title
+        input.form-control(type="text", name="title", id="title", value=stitle, placeholder="Enter title")
+      .form-group
+        label(for="author") author
+        input.form-control(type="text", name="author", id="author", value=sauthor, placeholder="Enter author")
+      .form-group
+        label(for="genre") genre
+        input.form-control(type="text", name="genre", id="genre", value=sgenre, placeholder="Enter genre number")
+      button.btn.btn-primary(type="submit") Submit
