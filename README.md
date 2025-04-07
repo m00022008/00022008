@@ -121,5 +121,3 @@ book-review-app/
 ```
 ---
 ```
-
-Let me know if you want me to include example data for the `data.json` or tips on deploying static JSON-based apps on Render or Glitch.
