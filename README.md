@@ -60,11 +60,15 @@ Users can access the live version of the app here:
 
 ## 📦 Dependencies
 
-- **express**
-- **dotenv**
-- **body-parser**
-- **cors**
-- **pug**
+express: ^4.21.2 — Fast, unopinionated web framework for Node.js
+
+body-parser: ^1.20.3 — Parses incoming request bodies in middleware
+
+express-validator: ^7.2.1 — A set of validators and sanitizers for Express
+
+nodemon: ^3.1.9 — Development tool that automatically restarts the server on file changes
+
+pug: ^3.0.3 — Template engine for rendering HTML on the server side
 
 Install them using:
 ```bash
