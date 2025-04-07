@@ -40,7 +40,7 @@ Users can access the live version of the app here:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/book-review-app.git
+   git clone https://github.com/m00022008/00022008.git
    cd book-review-app
 
 2. **Install dependencies**
