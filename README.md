@@ -60,15 +60,15 @@ Users can access the live version of the app here:
 
 ## 📦 Dependencies
 
-express: ^4.21.2 — Fast, unopinionated web framework for Node.js
+express
 
-body-parser: ^1.20.3 — Parses incoming request bodies in middleware
+body-parser
 
-express-validator: ^7.2.1 — A set of validators and sanitizers for Express
+express-validator
 
-nodemon: ^3.1.9 — Development tool that automatically restarts the server on file changes
+nodemon
 
-pug: ^3.0.3 — Template engine for rendering HTML on the server side
+pug
 
 Install them using:
 ```bash
@@ -119,9 +119,6 @@ book-review-app/
 │       └── create_update.pug
 │       └── index.pug
 ```
-
-> ✅ Note: `node_modules` and `.env` are excluded from version control using `.gitignore`.
-
 ---
 ```
 
