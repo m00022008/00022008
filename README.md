@@ -53,10 +53,7 @@ Users can access the live version of the app here:
    Create a `.env` file in the root folder and add:
    ```env
    PORT=3000
-   MONGO_URI=mongodb://127.0.0.1:27017/bookreviewdb
    ```
-
-   > Replace with your MongoDB Atlas URI if using a remote database.
 
 4. **Run the server**
    ```bash
@@ -71,7 +68,6 @@ Users can access the live version of the app here:
 ## 📦 Dependencies
 
 - **express**
-- **mongoose**
 - **dotenv**
 - **body-parser**
 - **cors**
@@ -79,7 +75,7 @@ Users can access the live version of the app here:
 
 Install them using:
 ```bash
-npm install express mongoose dotenv body-parser cors pug
+npm install express dotenv body-parser cors pug
 ```
 
 ---
@@ -98,6 +94,7 @@ book-review-app/
 │
 ├── app.js
 ├── .env
+├── data.json
 ├── package.json
 ├── README.md
 ├── /public
@@ -130,3 +127,5 @@ book-review-app/
 
 ---
 ```
+
+Let me know if you want me to include example data for the `data.json` or tips on deploying static JSON-based apps on Render or Glitch.
