@@ -1,6 +1,6 @@
 # 📚 Book Review App
 
-This is a simple **Book Review Web Application** built using **Express.js** and **Node.js**, developed to demonstrate core concepts of web development such as **CRUD operations**, **routing**, **template rendering**, and **MongoDB integration**.
+This is a simple **Book Review Web Application** built using **Express.js** and **Node.js**, developed to demonstrate core concepts of web development such as **CRUD operations**, **routing**, **template rendering**, and **basic file storage using JSON**.
 
 ---
 
@@ -12,10 +12,12 @@ The Book Review App allows users to:
 - 🗑️ Delete reviews
 - 🔍 View a list of all submitted reviews
 
+Instead of using a database, this application **stores review data in a local `data.json` file**. It’s a lightweight solution perfect for demonstrating core web technologies without needing a database setup.
+
 The application uses:
 - **Express.js** for server-side logic
-- **MongoDB** with **Mongoose** for database operations
 - **Pug** as the template engine for rendering views
+- **File System (fs)** module to read/write JSON files
 - **dotenv** for environment variables
 
 > _“This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service.”_
@@ -33,7 +35,6 @@ Users can access the live version of the app here:
 
 ### Prerequisites
 - Node.js installed on your system
-- MongoDB running locally or access to a MongoDB Atlas cluster
 
 ### Steps
 
@@ -41,7 +42,6 @@ Users can access the live version of the app here:
    ```bash
    git clone https://github.com/YOUR_USERNAME/book-review-app.git
    cd book-review-app
-
 
 2. **Install dependencies**
    ```bash
