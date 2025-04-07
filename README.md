@@ -1,5 +1,3 @@
-Sure! Here's the full `README.md` content without your name or ID:
-
 ```markdown
 # 📚 Book Review App
 
