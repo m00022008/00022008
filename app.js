@@ -7,9 +7,6 @@ const webRoutes = require('./routes/web')
 const app = express()
 
 const port = process.env.PORT || 3000;
-app.listen(port, '0.0.0.0', () => {
-  console.log(`Server running on port ${port}`);
-});
 
 global.mock_db = path.join(__dirname, './data/mock_db.json')
 
