@@ -48,19 +48,12 @@ Users can access the live version of the app here:
    npm install
    ```
 
-3. **Configure environment variables**
-
-   Create a `.env` file in the root folder and add:
-   ```env
-   PORT=3000
-   ```
-
-4. **Run the server**
+3. **Run the server**
    ```bash
    npm start
    ```
 
-5. Open your browser and navigate to:  
+4. Open your browser and navigate to:  
    **http://localhost:3000**
 
 ---
@@ -82,7 +75,7 @@ npm install express dotenv body-parser cors pug
 
 ## 🔗 Useful Links
 
-- 🔗 GitHub Repo: [https://github.com/YOUR_USERNAME/book-review-app](https://github.com/YOUR_USERNAME/book-review-app)
+- 🔗 GitHub Repo: [https://github.com/m00022008/00022008.git](https://github.com/m00022008/00022008.git)
 - 🌍 Live App: [https://book-review-app-i73t.onrender.com/book](https://book-review-app-i73t.onrender.com/book)
 
 ---
