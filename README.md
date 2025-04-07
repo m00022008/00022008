@@ -1,4 +1,3 @@
-```markdown
 # 📚 Book Review App
 
 This is a simple **Book Review Web Application** built using **Express.js** and **Node.js**, developed to demonstrate core concepts of web development such as **CRUD operations**, **routing**, **template rendering**, and **MongoDB integration**.
@@ -42,7 +41,7 @@ Users can access the live version of the app here:
    ```bash
    git clone https://github.com/YOUR_USERNAME/book-review-app.git
    cd book-review-app
-   ```
+
 
 2. **Install dependencies**
    ```bash
