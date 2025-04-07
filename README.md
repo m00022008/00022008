@@ -75,7 +75,7 @@ npm install express dotenv body-parser cors pug
 
 ## 🔗 Useful Links
 
-- 🔗 GitHub Repo: [https://github.com/m00022008/00022008.git](https://github.com/m00022008/00022008.git)
+- 🔗 GitHub Repo: [https://github.com/m00022008/00022008/tree/master](https://github.com/m00022008/00022008/tree/master)
 - 🌍 Live App: [https://book-review-app-i73t.onrender.com/book](https://book-review-app-i73t.onrender.com/book)
 
 ---
@@ -87,33 +87,33 @@ book-review-app/
 │
 ├── app.js
 ├── .env
-├── data.json
 ├── package.json
+├── package-lock.json
 ├── README.md
-├── /public
-│   ├── /images
-│   ├── /javascripts
-│   └── /styles
-│       └── style.css
 │
 ├── /routes
-│   ├── index.js
-│   └── /users
+│   └── /api
+│       └── book.js
 │       └── index.js
+│   └── /web
+│       └── book.js
+│       └── index.js
+├── /data
+│   ├── mock_db.json
 │
 ├── /controllers
-│   ├── index.js
-│   └── /users
-│       └── index.js
+│   ├── book.js
+├── /validators
+│   ├── book.js
 │
 ├── /services
-│   ├── index.js
-│   └── /users
-│       └── index.js
+│   ├── book.js
 │
 ├── /views
-│   ├── layout.pug
-│   └── index.pug
+│   └── head.pug
+│   └── /book
+│       └── create_update.pug
+│       └── index.pug
 ```
 
 > ✅ Note: `node_modules` and `.env` are excluded from version control using `.gitignore`.
